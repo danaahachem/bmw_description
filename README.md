@@ -46,5 +46,7 @@
    * Verified it with `check_urdf` (no parsing or inertial errors).
    * Loaded it successfully in RViz 2 with all links visible and colored.
    * Confirmed wheel joint transforms using `robot_state_publisher` and `joint_state_publisher_gui`.
-  
+
+  <img width="421" height="501" alt="image" src="https://github.com/user-attachments/assets/91cc7f5b-5250-4c47-b75d-f5470779e7fe" />
+
   
