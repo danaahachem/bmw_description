@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<robot name="BMW_Car" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Include modular parts -->
+  <xacro:include filename="./parts/core.xacro"/>
+  <xacro:include filename="./parts/sensors.xacro"/>
+  <xacro:include filename="./parts/plugins.xacro"/>
+
+  <!-- Build base + wheels -->
+  <xacro:make_core/>
+
+  <!-- Add sensors -->
+  <xacro:add_sensors/>
+
+  <!-- Add gazebo plugins (enable when you want motion + sensors in sim) -->
+  <!-- <xacro:add_plugins/> -->
+
+</robot>
