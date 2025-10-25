@@ -1,3 +1,4 @@
+### Steps:
 1. **Studied the original URDF**
    I started from the provided `BMW.urdf` file, which described the robot as one long XML document. It contained the chassis, wheels, sensors, inertial properties, and Gazebo plugins all in a single file.
 
