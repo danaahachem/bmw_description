@@ -2,7 +2,7 @@ For this task, I took the URDF model from Ali Hossam’s ROS2 4-Wheel Autonomous
 My goal was to convert that one long URDF into organized XACRO files, and then generate a new URDF from them.
 
 This helps make the robot description cleaner, easier to edit, and more professional.
-It’s also how robot models are usually structured in real ROS2 projects — each part is in a separate file instead of everything being in one.
+It’s also how robot models are usually structured in ROS2 projects where each part is in a separate file instead of everything being in one.
 
 ### Steps:
 1. **Studied the original URDF**
