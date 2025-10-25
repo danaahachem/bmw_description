@@ -1,3 +1,9 @@
+For this task, I took the URDF model from Ali Hossam’s ROS2 4-Wheel Autonomous Robot. It was a single URDF file that described a simple four-wheeled BMW-style robot.
+My goal was to convert that one long URDF into organized XACRO files, and then generate a new URDF from them.
+
+This helps make the robot description cleaner, easier to edit, and more professional.
+It’s also how robot models are usually structured in real ROS2 projects — each part is in a separate file instead of everything being in one.
+
 ### Steps:
 1. **Studied the original URDF**
    I started from the provided `BMW.urdf` file, which described the robot as one long XML document. It contained the chassis, wheels, sensors, inertial properties, and Gazebo plugins all in a single file.
